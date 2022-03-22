@@ -1,0 +1,27 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+input,
+input[type="file"] {
+  justify-content: center;
+  display: flex;
+  margin: 1rem;
+  width: 11rem;
+  border-color: black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+.uploadVideoBtn:disabled {
+  background-color: darkgrey;
+}
